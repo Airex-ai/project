@@ -1,0 +1,10 @@
+<div style="border-radius:10px;background-color:rgba(234,234,234,0.9);-webkit-touch-callout: none;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;-khtml-user-select: none;user-select: none;"> 
+<div style="margin-left:0.8%;margin-right:0.8%;background-color:rgba(204,175,201,0.5);"> 
+<div style="border-style: hidden; margin-left:0.8%;margin-right:0.8%;margin-bottom:0.8%;padding-left:1.5%;padding-top:0.3%;padding-bottom:0.5%;background-color:rgba(240,240,255,0.7);letter-spacing:3px;">
+<p><font face="微软雅黑"><span style="font-size: 30px; color: rgb(255,0,0);">News：</span></font></p><p>&nbsp;</p>
+<h3><span style="text-align: initial;">1、<a href="http://witacm.com/news.php?nid=1007" target="_blank" style="color: rgb(45, 132, 186);">萌新入坑指北</a><br></span>
+  <span style="text-align: initial;">2、<a href="http://witacm.com/news.php?nid=1008" target="_blank" style="color: rgb(45, 132, 186);">关于加入WITACM算法协会通知</a></span></h3>
+  <p style="height: 2px;">&nbsp;</p>
+  </div>
+</div>
+  </div>

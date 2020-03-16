@@ -1,0 +1,14 @@
+[Unit]
+Description=WITOJ Judged Process
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/home/judge/etc/judge.pid
+ExecStart=/usr/bin/judged
+# Restart=on-failure
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
+

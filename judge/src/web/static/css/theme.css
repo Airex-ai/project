@@ -1,0 +1,65 @@
+/* Standings */
+.theme_cherry_blossoms_standings {
+    background-image: url(../images/yyhh.jpg);
+    background-size: cover;
+    color: #FF3E96;
+}
+
+.theme_cherry_blossoms_standings a {
+    color: #FF6347;
+}
+
+.theme_cherry_blossoms_standings a:hover, .theme_cherry_blossoms_standings a:focus, .theme_cherry_blossoms_standings a:active {
+    color: #FF4500;
+}
+
+.theme_214_standings {
+    background-image: url(../images/214_bg.png);
+    background-size: contain;
+    background-position: top right;
+}
+.theme_214_standings a {
+    color: #F1256C;
+    text-shadow: 0 0 0.4em #fff, -0 -0 0.4em #fff;
+}
+
+/*blue_ocean*/
+.theme_blue_ocean_standings {
+    background-image: url(../images/leo_xry.jpg);
+    color: #FFD700;
+}
+.theme_blue_ocean_standings a {
+    color: #FFB300;
+}
+.theme_blue_ocean_standings a:hover, .theme_blue_ocean_standings a:focus, .theme_blue_ocean_standings a:active {
+    color: #FF9900;
+}
+
+/*bimo*/
+.theme_bimo_standings {
+    background-image: url(../images/bimo_bg.png);
+    background-size: cover;
+    color: #FFC000;
+}
+
+.theme_bimo_standings a {
+    color: #FFB300;
+}
+
+.theme_bimo_standings a:hover, .theme_bimo_standings a:focus, .theme_bimo_standings a:active {
+    color: #FF9900;
+}
+
+.theme_bimo_standings .accept-text, .theme_bimo_standings .error-text, .theme_bimo_standings .pe-text, .theme_bimo_standings .info-text, .theme_bimo_standings .tmle-text, .theme_bimo_standings .wrong-text {
+    text-shadow: 0 0 0.4em #fff, -0 -0 0.4em #fff;
+}
+
+.theme_bimo_standings .ce-text {
+    color: #FFC000;
+    text-shadow: 0 0 0.02em #fff, -0 -0 0.02em #fff;
+}
+
+.theme_bimo_standings .pr-text {
+    color: #33ccff;
+    text-shadow: 0 0 0.4em #fff, -0 -0 0.4em #fff;
+}

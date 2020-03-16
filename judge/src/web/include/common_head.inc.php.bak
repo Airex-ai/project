@@ -1,0 +1,49 @@
+<meta charset="utf-8">
+<?php if ($OJ_ENABLE_SEO) header("Access-Control-Allow-Origin: *");
+{ ?>
+<!-- SEO -->
+
+<meta name="description" content="<?php echo $SEO_DESC;?>">
+<meta name="keywords" content="<?php echo $SEO_KEYWORD;?>">
+<?php } ?>
+<!-- Icons -->
+<link rel="icon" href="./static/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="msapplication-TileColor" content="#FEF2E6">
+<meta name="msapplication-TileImage" content="./static/favicon.png">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="./static/css/bootstrap.min.css">
+<link rel="stylesheet" href="./static/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="./static/css/prettify.css" type="text/css">
+<link rel="stylesheet" href="./static/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="./static/css/katex.min.css">
+
+<!-- Layui CSS/JS -->
+<link rel="stylesheet" href="./static/layui/css/layui.css">
+<script src="./static/layui/layui.js"></script>
+
+<?php
+$theme = isset($_COOKIE["colortheme"])?$_COOKIE["colortheme"]:'default';
+echo "<link rel='stylesheet' type='text/css' href='./static/css/{$theme}.css'>";
+?>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="./static/js/html5shiv.js"></script>
+  <script src="./static/js/respond.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 7]>
+  <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/2.0.0/css/font-awesome-ie7.css" type="text/css">
+<![endif]-->
+
+<!-- javascripts -->
+<script src="./static/js/jquery.min.js"></script>
+<script src="./static/js/bootstrap.min.js"></script>
+<script src="./static/js/prettify.js"></script>
+<script src="./static/js/nprogress.js"></script>
+<script src="./static/js/jquery.table2excel.js"></script>
+<script src="./static/js/switchtheme.js"></script>
+<script src="./static/js/katex.min.js"></script>
+<script src="./static/js/auto-render.min.js"></script>
+<script src="./static/js/clipboard.min.js"></script>

@@ -1,0 +1,5 @@
+echo "use jol; update solution set result=0 where solution_id=1176; delete from compileinfo;" |  mysql -uroot -pwww780335221@qq
+
+
+INSERT INTO solution VALUES(1176,1000,'jk',0,0,'2016-05-13 19:24:00',0,1,'',NULL,1,-1,0,'2020-01-30 07:13:02',0,0,'LOCAL');
+INSERT INTO source_code VALUES(1176,'#include<stdio.h> int main() {int a, b; scanf("%d%d",&a,&b); printf("%d\n", a+b); return 0;}');
